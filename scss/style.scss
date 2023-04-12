@@ -1,0 +1,30 @@
+@import "./responsive.scss";
+@import "./header/_header.scss";
+@import "./footer/footer.scss";
+@import "./first-section.scss";
+@import "./second-section.scss";
+@import "./third-section.scss";
+@import "./fourth-section.scss";
+@import "./fifth-section.scss";
+@import "./sixth-section.scss";
+@import "./seven-section.scss";
+@import "./eight-section.scss";
+@import "./footer/footer.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: #1d1d1c;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

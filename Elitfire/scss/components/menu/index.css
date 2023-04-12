@@ -1,0 +1,97 @@
+.menu {
+  font-family: "Lab Grotesque";
+  display: grid;
+  grid-template-columns: 571px 539px;
+  gap: 84px;
+  position: relative;
+  margin-bottom: 106px;
+}
+.menu h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+.menu p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.menu h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #757575;
+}
+.menu__indicator {
+  position: relative;
+  max-width: 468px;
+  margin-bottom: 19px;
+  border-bottom: 1px solid rgba(255, 207, 122, 0.72);
+}
+.menu__second-indicator {
+  width: 58px;
+  position: absolute;
+  border: 1px solid rgba(255, 207, 122, 0.72);
+  transform: rotate(55.49deg);
+  left: 471px;
+  top: 156px;
+}
+.menu__kamin {
+  margin-bottom: 38px;
+}
+.menu__variants h5 {
+  margin-bottom: 12px;
+}
+.menu__variants .menu__items {
+  margin-bottom: 81px;
+}
+.menu__standart h5 {
+  margin-bottom: 26px;
+}
+.menu__standart .menu__items {
+  margin-bottom: 102px;
+}
+.menu__items {
+  display: grid;
+  grid-template-columns: 239px 319px;
+  gap: 9px;
+}
+.menu__slider__images {
+  position: relative;
+}
+.menu__slide {
+  width: 537px;
+  height: 346px;
+  margin-top: 37px;
+}
+.menu__prev {
+  position: absolute;
+  top: 285px;
+  left: 38px;
+  cursor: pointer;
+}
+.menu__next {
+  position: absolute;
+  bottom: 44px;
+  left: 71px;
+  cursor: pointer;
+}
+
+.first__column {
+  padding-top: 44px;
+}
+
+.sizes {
+  margin-bottom: 122px;
+}
+
+.second__column .first__text {
+  font-size: 13px;
+}
+
+.second__column .third__heading {
+  line-height: 40px;
+}/*# sourceMappingURL=index.css.map */

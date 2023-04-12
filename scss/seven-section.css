@@ -1,0 +1,20 @@
+.questions h3 {
+  margin-top: 130px;
+  font: 250 40px/55px "Lab Grotesque";
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(249.07deg, #ffffff 36.17%, rgba(255, 255, 255, 0) 97.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.questions__image {
+  margin-top: 45px;
+  width: 100%;
+  height: 267px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=seven-section.css.map */

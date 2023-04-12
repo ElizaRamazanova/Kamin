@@ -1,0 +1,32 @@
+.smartbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.smartbox__kamin {
+  text-align: center;
+  width: 770px;
+  height: 55px;
+  font: 250 40px/55px "Lab Grotesque";
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(247.29deg, #ffffff 35.25%, rgba(255, 255, 255, 0) 104.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.smartbox__home {
+  width: 644px;
+  height: 66px;
+  font: 300 20px/33px "Lab Grotesque";
+  color: #ffffff;
+  margin: 13px;
+  margin-bottom: 558px;
+}
+.smartbox__image-kamin {
+  width: 1306px;
+  height: 600px;
+  z-index: -1;
+  position: absolute;
+}/*# sourceMappingURL=fourth-section.css.map */

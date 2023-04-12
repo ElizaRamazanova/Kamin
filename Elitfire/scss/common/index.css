@@ -1,0 +1,162 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+ul, menu {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Thin"), local("Lab-Grotesque-Thin"), url("../../fonts/LabGrotesque-Thin.ttf") format("ttf"), url("../../fonts/LabGrotesque-Thin.eot") format("eot"), url("../../fonts/LabGrotesque-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Regular"), local("Lab-Grotesque-Regular"), url("../../fonts/LabGrotesque-Regular.ttf") format("ttf"), url("../../fonts/LabGrotesque-Regular.eot") format("eot"), url("../../fonts/LabGrotesque-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Light"), local("Lab-Grotesque-Light"), url("../../fonts/LabGrotesque-Light.ttf") format("ttf"), url("../../fonts/LabGrotesque-Light.eot") format("eot"), url("../../fonts/LabGrotesque-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Medium"), local("Lab-Grotesque-Medium"), url("../../fonts/LabGrotesque-Medium.ttf") format("ttf"), url("../../fonts/LabGrotesque-Medium.eot") format("eot"), url("../../fonts/LabGrotesque-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Bold"), local("Lab-Grotesque-Bold"), url("../../fonts/LabGrotesque-Bold.ttf") format("ttf"), url("../../fonts/LabGrotesque-Bold.eot") format("eot"), url("../../fonts/LabGrotesque-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Scania Sans Headline";
+  src: local("Scania Sans Headline Regular"), local("Scania Sans Headline Regular"), url("../../fonts/ScaniaSansCYHeadline-Regular.ttf") format("ttf"), url("../../fonts/ScaniaSansCYHeadline-Regular.eot") format("eot"), url("../../fonts/ScaniaSansCYHeadline-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Scania Sans";
+  src: local("Scania Sans Regular"), local("Scania Sans Regular"), url("../../fonts/ScaniaSansCY-Regular.ttf") format("ttf"), url("../../fonts/ScaniaSansCY-Regular.eot") format("eot"), url("../../fonts/ScaniaSansCY-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Scania Sans";
+  src: local("Scania Sans Bold"), local("Scania Sans Bold"), url("../../fonts/ScaniaSansCY-Bold.ttf") format("ttf"), url("./../fonts/ScaniaSansCY-Bold.eot") format("eot"), url("./../fonts/ScaniaSansCY-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background-color: #1d1d1c;
+  color: #fff;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.second__container {
+  max-width: 1053px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.third__container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.line {
+  height: 1px;
+  width: 31px;
+  background-color: #949494;
+  margin-right: 17px;
+  margin-left: 17px;
+}/*# sourceMappingURL=index.css.map */

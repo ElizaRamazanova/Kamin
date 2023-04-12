@@ -1,0 +1,110 @@
+.oilblocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 84px;
+  position: relative;
+}
+.oilblocks .oilblock {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.oilblocks .oilblock__panel h3 {
+  width: 181px;
+  height: 36px;
+  font: 400 24px/36px "Lab Grotesque";
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.oilblocks .oilblock__panel p {
+  width: 420px;
+  height: 36px;
+  font: 400 14px/27px "Lab Grotesque";
+  border-bottom: 1px solid rgba(255, 207, 122, 0.72);
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.oilblocks .oilblock .line {
+  position: absolute;
+  width: 58.25px;
+  border: 1px solid rgba(255, 207, 122, 0.72);
+  transform: rotate(55.49deg);
+  top: 120px;
+  left: 427px;
+}
+.oilblocks .oilblock__variations p {
+  color: #757575;
+}
+.oilblocks .oilblock__variations-list {
+  display: flex;
+  gap: 94px;
+  font: 400 14px/27px "Lab Grotesque";
+  color: #ffffff;
+  margin: 20px;
+}
+.oilblocks .oilblock__standart p {
+  color: #757575;
+  margin-top: 27px;
+}
+.oilblocks .oilblock__standart-list {
+  display: flex;
+  gap: 94px;
+  font: 400 14px/27px "Lab Grotesque";
+  color: #ffffff;
+  margin: 20px;
+}
+.oilblocks .oilblock__ready {
+  display: flex;
+  flex-direction: column;
+}
+.oilblocks .oilblock__ready h3 {
+  font: 400 24px/36px "Lab Grotesque";
+  color: #ffffff;
+}
+.oilblocks .oilblock__ready-list {
+  font: 400 14px/27px "Lab Grotesque";
+  color: #ffffff;
+}
+.oilblocks .oilblock__ready img {
+  margin-top: 37px;
+  width: 537px;
+  height: 346px;
+  border-radius: 2px;
+}
+.oilblocks .oilblocksecond {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.oilblocks .oilblocksecond__size h3 {
+  width: 341px;
+  height: 80px;
+  font: 400 24px/40px "Lab Grotesque";
+  color: #ffffff;
+}
+.oilblocks .oilblocksecond__size-list {
+  margin-top: 50px;
+  font: 400 14px/27px "Lab Grotesque";
+  color: #ffffff;
+}
+.oilblocks .oilblocksecond__size img {
+  margin-top: 50px;
+  width: 537px;
+  height: 346px;
+  border-radius: 2px;
+}
+.oilblocks .oilblocksecond__accessories h3 {
+  margin-top: 113px;
+  width: 341px;
+  height: 80px;
+  font: 400 24px/40px "Lab Grotesque";
+  color: #ffffff;
+}
+.oilblocks .oilblocksecond__accessories-list {
+  font: 400 14px/27px "Lab Grotesque";
+  color: #ffffff;
+}
+.oilblocks .oilblocksecond__accessories img {
+  margin-top: 50px;
+  width: 537px;
+  height: 346px;
+  border-radius: 2px;
+}/*# sourceMappingURL=fifth-section.css.map */

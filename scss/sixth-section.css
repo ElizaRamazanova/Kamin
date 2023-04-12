@@ -1,0 +1,23 @@
+.catalogbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.catalogbox__text {
+  margin-top: 49px;
+  width: 862px;
+  height: 44px;
+  font: 300 30px/44px "Lab Grotesque";
+  text-align: center;
+  color: #ffffff;
+}
+.catalogbox__button {
+  margin-top: 96px;
+  width: 284px;
+  height: 60px;
+  background: #eccf94;
+  border-radius: 1px;
+  font: 500 18px/30px "Lab Grotesque";
+  color: #121212;
+}/*# sourceMappingURL=sixth-section.css.map */

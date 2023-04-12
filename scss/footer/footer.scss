@@ -1,0 +1,132 @@
+.footer__wrapper {
+    background-color: #121212;
+}
+.contact {
+    h2 {
+        font-family: "Lab Grotesque";
+        font-weight: 250;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 71px;
+        span {
+            background: linear-gradient(231.91deg, #ffffff 37.36%, rgba(255, 255, 255, 0) 86.46%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+    padding-top: 72px;
+    padding-bottom: 66px;
+    min-height: 490px;
+    border-bottom: 1px solid #232323;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__social {
+        display: grid;
+        grid-template-columns: 153px 247px;
+        gap: 217px;
+        &__whatsapp {
+            margin-bottom: 50px;
+        }
+        &__mail {
+            margin-bottom: 50px;
+        }
+    }
+
+    &__descr {
+        font-family: "Lab Grotesque";
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 36px;
+        color: #949494;
+    }
+
+    &__value {
+        font-family: "Lab Grotesque";
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 33px;
+        color: #ffffff;
+    }
+
+    &__phone {
+        font-family: "Lab Grotesque";
+        font-style: normal;
+        font-weight: 250;
+        font-size: 36px;
+        line-height: 33px;
+        color: #ffffff;
+        &__phone {
+            margin-bottom: 61px;
+        }
+    }
+
+    &__button {
+        width: 279px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: "Lab Grotesque";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #ffffff;
+        border: 1px solid #ceb787;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+}
+
+.gold {
+    color: #ffcf7a;
+}
+.phone {
+    margin-bottom: 13px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__date {
+        margin-right: 47px;
+    }
+
+    &__agreement {
+        cursor: pointer;
+    }
+
+    h3 {
+        font-family: "Scania Sans Headline";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 70px;
+        letter-spacing: 0.105em;
+        color: #ffffff;
+        margin-right: 110px;
+        cursor: pointer;
+    }
+    p {
+        font-family: "Lab Grotesque";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #6d6d6d;
+    }
+}

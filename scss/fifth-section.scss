@@ -1,0 +1,116 @@
+.oilblocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 84px;
+    position: relative;
+
+    .oilblock {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        &__panel h3 {
+            width: 181px;
+            height: 36px;
+            font: 400 24px/36px "Lab Grotesque";
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+        &__panel p {
+            width: 420px;
+            height: 36px;
+            font: 400 14px/27px "Lab Grotesque";
+            border-bottom: 1px solid rgba(255, 207, 122, 0.72);
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+        .line {
+            position: absolute;
+            width: 58.25px;
+            border: 1px solid rgba(255, 207, 122, 0.72);
+            transform: rotate(55.49deg);
+            top: 120px;
+            left: 427px;
+        }
+
+        &__variations p {
+            color: #757575;
+        }
+        &__variations-list {
+            display: flex;
+            gap: 94px;
+            font: 400 14px/27px "Lab Grotesque";
+            color: #ffffff;
+            margin: 20px;
+        }
+        &__standart p {
+            color: #757575;
+            margin-top: 27px;
+        }
+        &__standart-list {
+            display: flex;
+            gap: 94px;
+            font: 400 14px/27px "Lab Grotesque";
+            color: #ffffff;
+            margin: 20px;
+        }
+        &__ready {
+            display: flex;
+            flex-direction: column;
+        }
+        &__ready h3 {
+            font: 400 24px/36px "Lab Grotesque";
+            color: #ffffff;
+        }
+        &__ready-list {
+            font: 400 14px/27px "Lab Grotesque";
+            color: #ffffff;
+        }
+        &__ready img {
+            margin-top: 37px;
+            width: 537px;
+            height: 346px;
+            border-radius: 2px;
+        }
+    }
+
+    .oilblocksecond {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        &__size h3 {
+            width: 341px;
+            height: 80px;
+            font: 400 24px/40px "Lab Grotesque";
+            color: #ffffff;
+        }
+        &__size-list {
+            margin-top: 50px;
+            font: 400 14px/27px "Lab Grotesque";
+            color: #ffffff;
+        }
+        &__size img {
+            margin-top: 50px;
+            width: 537px;
+            height: 346px;
+            border-radius: 2px;
+        }
+        &__accessories h3 {
+            margin-top: 113px;
+            width: 341px;
+            height: 80px;
+            font: 400 24px/40px "Lab Grotesque";
+            color: #ffffff;
+        }
+        &__accessories-list {
+            // margin-top: 24px;
+            font: 400 14px/27px "Lab Grotesque";
+            color: #ffffff;
+        }
+        &__accessories img {
+            margin-top: 50px;
+            width: 537px;
+            height: 346px;
+            border-radius: 2px;
+        }
+    }
+}

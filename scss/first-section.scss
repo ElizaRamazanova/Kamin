@@ -1,0 +1,63 @@
+.container-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 2;
+    &__first {
+        width: 780px;
+        height: 161px;
+        left: 123px;
+        top: 227px;
+        font: 250 64px/80px "Lab Grotesque";
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        background: linear-gradient(226.43deg, #ffffff 49.37%, rgba(255, 255, 255, 0) 99.78%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    &__second {
+        width: 178px;
+        height: 40px;
+        font: 300 18px/40px "Lab Grotesque";
+        letter-spacing: 0.05em;
+        color: #ffcf7a;
+    }
+    &__third {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 80px;
+    }
+    &__third p {
+        // width: 120px;
+        width: 91px;
+        height: 44px;
+        font: 400 14px/22px "Lab Grotesque";
+        text-align: center;
+        color: #ffffff;
+    }
+    &__icon-second p {
+        width: 120px;
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

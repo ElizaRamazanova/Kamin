@@ -1,0 +1,40 @@
+@import "../_root.scss";
+.header {
+    padding: 103px;
+
+    &__nav {
+        margin: 0 auto;
+        width: 100%;
+        max-width: $sx;
+    }
+    &__nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__list {
+        display: flex;
+        column-gap: 40px;
+    }
+    .header__list {
+        &__list-avto {
+            text-align: right;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font: 400 13px/16px "Lab Grotesque";
+            color: #949494;
+        }
+        .list__active .active-third {
+            color: $orange;
+        }
+    }
+    &__button {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 1267px;
+        top: 85px;
+        background: #eccf94;
+        border-radius: 2px;
+        margin-left: 61px;
+    }
+}
